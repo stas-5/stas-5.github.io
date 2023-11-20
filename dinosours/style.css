@@ -1,0 +1,29 @@
+h1{
+    font-family: Kablammo, cursive;
+    text-align: center;
+    color: blue;
+    text-shadow: 3px 2px 10px green,0px 1px 4px olivedrab,3px 2px 5px greenyellow;
+    font-size:3em ;
+    
+
+    
+}   
+ img{
+    width: 80%;
+    margin: 20px;
+ }
+ .memu-item{
+    background-color: #c7e4ff;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+ }
+ a{font-size:1.2em ;
+  text-decoration:none ;
+  color:darkblue;
+  font-family:Kablammo,cursive ;
+  transition: 0.5s;
+ }
+a:hover{
+    letter-spacing: 5px;
+}
