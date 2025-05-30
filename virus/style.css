@@ -1,0 +1,349 @@
+ .first {
+     background-image: url(virus.jpg);
+     height: 80vh;
+     background-size: cover;
+     background-position: 50% 30%;
+     color: aqua;
+     font-size: 3em;
+     text-shadow: 0px 0px 5px white;
+ }
+
+ .first h1 {
+     background-color: #0b0b0bb9;
+     padding: 10px;
+ }
+
+ .card-virus {
+     margin-top: 15px;
+     margin-bottom: 15px;
+     position: relative;
+     overflow: hidden;
+     height: 250px;
+     /*висота карточок*/
+     background-color: #ffffff79;
+ }
+
+ .card-virus img {
+     object-fit: cover;
+     width: 100%;
+     height: 100%;
+ }
+
+ .card-virus .card-text {
+     position: absolute;
+     background-color: #000000da;
+     top: 20%;
+     /*  висота спливаючого вікна */
+     left: 0;
+     padding-top: 15px;
+     padding-bottom: 15px;
+     padding-left: 3px;
+     transform: translateX(-100%);
+     transition: 0.5s;
+     color: aliceblue;
+ }
+
+ .card-virus:hover .card-text {
+     display: block;
+     transform: translateX(0);
+
+ }
+
+ .name-virus {
+     font-weight: 900;
+ }
+
+ .name-vir {
+     font-weight: 900;
+ }
+
+ .name-viru {
+     font-weight: 900;
+ }
+
+ .name-virus-2 {
+     font-weight: 900;
+ }
+
+ .number {
+     margin: 0 7px;
+     font-weight: 900;
+     color: rgb(0, 2, 104);
+ }
+
+ .second {
+     background-image: url(xp.png.jpg);
+     background-size: cover;
+     background-position: 50% 50%;
+ }
+
+ h2.virus-title {
+     text-align: center;
+     margin-top: 30px;
+     margin-bottom: 30px;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     text-shadow: 0px 0px 5px blue;
+ }
+
+ h2.virus-titles {
+     text-align: center;
+     margin-top: 30px;
+     margin-bottom: 30px;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     text-shadow: 0px 0px 5px rgb(195, 65, 70);
+ }
+
+ .container-fluid-3 {
+     margin: 0;
+     padding: 0;
+
+ }
+
+ .mydoom-p {
+     text-align: center;
+     margin-top: 30px;
+     margin-bottom: 30px;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     text-shadow: 0px 0px 5px rgba(134, 26, 26, 0.616);
+ }
+
+ body {
+     margin: 0;
+     overflow-x: hidden;
+ }
+
+ .anim-img {
+     background: linear-gradient(to right, blue, red);
+     padding-top: 20px;
+     padding-bottom: 20px;
+ }
+
+ h3.four {
+     text-align: center;
+
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     text-shadow: 0px 0px 5px rgb(24, 25, 25);
+ }
+
+ .mydoom {
+     width: 100%;
+ }
+
+ .total {
+     width: 100px;
+
+ }
+
+ h2 {
+     text-align: center;
+ }
+
+ h3 {
+     text-align: center;
+ }
+
+ h2.Total {
+     text-align: center;
+     margin-top: 30px;
+     margin-bottom: 30px;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     text-shadow: 0px 0px 5px rgb(204, 212, 48);
+ }
+
+ h2.PC {
+     text-align: center;
+     margin-top: 30px;
+     margin-bottom: 30px;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     text-shadow: 0px 0px 5px rgb(183, 33, 96);
+ }
+
+ .nav-bar {
+     position: fixed;
+ }
+
+ .btn-Top {
+     /*дів */
+     display: none;
+     position: fixed;
+     right: 15px;
+     bottom: 15px;
+     padding: 5px;
+     animation: top-arrow 1s infinite alternate;
+ }
+
+ .link-top {
+     /*стрілочка */
+     font-size: 1.5em;
+ }
+
+ .link-top:hover {
+     text-shadow: 0px 0px 10px black;
+     animation-play-state: paused;
+ }
+
+ @keyframes top-arrow {
+     0% {
+         bottom: 25px;
+     }
+
+     100% {
+         bottom: 15px;
+     }
+ }
+
+ h2.antivirus {
+     text-align: center;
+     margin-top: 30px;
+     margin-bottom: 30px;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     text-shadow: 0px 0px 5px rgb(0, 0, 0);
+ }
+
+ h6 {
+     text-align: center;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     text-shadow: 0px 0px 6px rgb(62, 30, 30);
+ }
+
+ /* HTML: <div class="loader"></div> */
+ .loader {
+     width: 120px;
+     height: 22px;
+     border-radius: 20px;
+     color: #1596b6;
+     border: 2px solid;
+     position: relative;
+
+ }
+
+ .loader::before {
+     content: "";
+     position: absolute;
+     margin: 2px;
+     inset: 0 100% 0 0;
+     border-radius: inherit;
+     background: currentColor;
+     animation: l6 2s infinite;
+ }
+
+ @keyframes l6 {
+     100% {
+         inset: 0
+     }
+ }
+
+ .preloader {
+     height: 100vh;
+     width: 100%;
+     position: fixed;
+     background-color: white;
+     z-index: 100500;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     top: 0;
+     left: 0;
+     box-shadow: 0px 2px 6px rgb(35, 102, 185);
+ }
+
+ .open-btn {
+     top: 20px;
+     left: 20px;
+     background-color: #1976d2;
+     color: white;
+     border: none;
+     padding: 12px 20px;
+     border-radius: 8px;
+     cursor: pointer;
+     transition: background 0.3s;
+     z-index: 1001;
+     display: flex;
+     justify-content: center;
+ }
+
+ .open-btn:hover {
+     background-color: #0d47a1;
+ }
+
+ /* Бічна панель */
+ .sidebar {
+     height: 100%;
+     width: 0;
+     position: fixed;
+     top: 0;
+     left: 0;
+     background-color: #ffffff;
+     box-shadow: 2px 0 10px rgba(0, 0, 0, 0.2);
+     overflow-x: hidden;
+     transition: 0.4s ease;
+     padding-top: 60px;
+     z-index: 1000;
+ }
+
+ .sidebar a {
+     padding: 10px 25px;
+     text-decoration: none;
+     font-size: 18px;
+     color: #333;
+     display: block;
+     transition: background 0.2s;
+ }
+
+ .sidebar a:hover {
+     background-color: #f1f1f1;
+ }
+
+ .close-btn {
+     top: 20px;
+     right: 25px;
+     font-size: 30px;
+     background: none;
+     border: none;
+     cursor: pointer;
+     color: #888;
+ }
+
+ .close-btn:hover {
+     color: #000;
+ }
+
+ .kaka {
+     text-align: center;
+     width: 100%;
+
+ }
+
+ .open-btn {
+     display: block;
+     margin: 10px auto;
+ }
+
+ .second {
+     font-family: "Playfair Display", serif;
+     font-optical-sizing: auto;
+     font-weight: 900;
+     font-style: normal;
+ }
+
+ .item-wrap {
+     font-family: "Playfair Display", serif;
+     font-optical-sizing: auto;
+     font-weight: 900;
+     font-style: normal;
+ }
+
+ .four {
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     font-weight: 900;
+     font-style: normal;
+ }
+
+ .navbar-nav {
+     
+         font-family: "Tuffy", sans-serif;
+         font-weight: 700;
+         font-style: normal;
+     
+ }
+  
